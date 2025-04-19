@@ -1,0 +1,1 @@
+python main.py --local_rank=0 --output_dir logs/swint_dota -c /root/autodl-tmp/Oriented-DETR/config/dota/4scale_swint_ss_dota.py --coco_path /root/autodl-tmp/Oriented-DETR/data/DOTA/after --dataset_file dota  --pretrain_model_path /root/autodl-tmp/Oriented-DETR/all_models/checkpoint/swint_dota.pth --test
